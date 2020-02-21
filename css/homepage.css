@@ -1,0 +1,300 @@
+*{
+    margin:0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border-radius:50%;
+}
+
+.main-header-container {
+    width:100%;
+    height:auto;
+    background-image:url(../images/conference-hero.jpg);
+    background-repeat: no-repeat;
+    background-image: fill;
+    
+    text-align:center;
+    color: white;
+    font-family: Verdana, "Times New Roman", Times, serif;
+    /*font-weight:700;*/
+
+}
+
+.clr {
+    clear: both;
+}
+
+.container {
+    width:100%;
+    height:auto;
+    padding:50px 50px 50px 50px;
+    margin:0px;
+    background-color: #bdd5ea;
+    border: 1px dotted #577399;
+    border-left:none;
+    border-right:none;
+    box-sizing: border-box;
+}
+
+.block{
+    width:100%;
+    height:130px;
+}
+
+.container ul{
+    padding-left:40px;
+}
+
+.container h3{
+    padding: 20px 0;
+}
+
+nav{
+    margin:10px 0;
+}
+
+.main-header{
+    padding-top:50px;
+    padding-bottom:90px;
+    overflow: hidden;
+}
+
+.main-header h1{
+    font-size:25px;
+    margin:20px;
+}
+
+.main-header h2{
+    font-size:24px;
+    margin:20px;
+}
+
+.main-header p{
+    font-size:13px;
+    
+}
+
+.main-header img{
+    background:transparent;
+    padding:3px;
+    margin:10px;
+    width:100px;
+    height:auto;
+    border:4px solid white;
+}
+
+.content {
+    width:100%;
+    height:auto;
+    padding:0px;
+    background: #ffffff;
+    box-sizing: border-box;
+}
+
+.content img{
+    width:25%;
+    margin: 20px 120px;
+}
+
+
+.one img{
+    float:left;
+    box-sizing: border-box;
+}
+
+.one h3 p{
+    float:right;
+    box-sizing: border-box;
+    width:auto;
+}
+
+.content h3{
+    margin:15px;
+    margin-left:50px;
+    padding-top:30px;    
+}
+
+.content p{
+    margin:0px;
+    padding: 0px 50px;
+}
+
+
+
+.two img{
+    float:right;
+    box-sizing: border-box;
+}
+
+.two h3 p{
+    float:left;
+    box-sizing: border-box;
+}
+
+#speakers{
+    width:100%;
+    position:relative;
+    text-align:center;
+    font-size:26px;
+    top:50%;
+
+}
+
+#day1{
+    width:48%;
+    float:left;
+    border:1px solid lightgray;
+    box-shadow: 2px 2px lightgray;
+}
+#day2{
+    width:48%;  
+    float:right;
+    border:1px solid lightgray;
+    box-shadow: 2px 2px lightgray;
+}
+
+#day1 h3{
+    text-align:center;
+    margin-bottom:15px;
+}
+
+#day2 h3{
+    text-align:center;
+    margin-bottom:15px;
+}
+
+.container2{
+    width:84%;
+    padding:0% 7.9%;
+    /*border:1px solid #000;*/
+}
+
+.person{
+    width:100%;
+    height:auto;
+    box-sizing:content-box;
+}
+
+.person img{
+    width:30%;
+    margin:0% 15% 10% 5%;
+    float:left;
+    
+}
+.description h4{
+    font-weight:normal;
+    margin-bottom:7px;
+}
+
+#lastContainer p{
+    margin-bottom:7px;
+}
+
+footer{
+    height:50px;
+    width:100%;
+    text-align:center;
+    color:#ffffff;
+    background-color: #495867;
+}
+
+section{
+    overflow: auto;
+}
+
+footer p{
+    position:relative;
+    top:50%;
+    transform:translate(0%,-50%);
+}
+
+.form{
+    text-align: center;
+}
+
+form {
+    width:25em;
+    padding: 20px 0;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px lightgray;
+    margin: 20px auto;
+}
+
+.form h1{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.form h3 {
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.form input[type="text"], input[type="email"], select{
+    display:inline-block;
+    margin:4px;
+    width:200px;
+    height:30px;
+}
+
+.tabl{
+    text-align:center;
+    width:85%; 
+    height:auto;
+    margin:0px auto;
+    border-collapse: collapse;
+}
+
+.tabl th{
+    color:white;
+    background-color:rgb(40,40,40);
+    width:auto;
+    padding:20px 0px;
+    border:5px solid #BDD5EA;
+}
+
+.tabl td{
+    color:black;
+    background:white;
+    width:auto;
+    padding:20px 0px;
+    border:5px solid #BDD5EA;
+}
+
+.container a{
+    color:white;
+    background:red;
+    padding:10px 20px;
+    border-radius:8%;
+    display:inline-block;
+}
+
+.form input[type=submit] {
+    color:white;
+    background:red;
+    padding:10px 20px;
+    border-radius:11%;
+}
+
+.tabl caption{
+    font-size:21px;
+    margin-bottom:15px;
+}
+
+#lastContainer{
+    text-align:center;
+    margin-top:50px;
+}
+#lastContainer h3{
+    margin: 0px 0px;
+    padding:0px;
+
+}
+#lastContainer p{
+    margin: 20px 0px;
+
+}
+
