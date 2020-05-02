@@ -216,6 +216,10 @@ footer p{
     text-align: center;
 }
 
+#section_form{
+    position: relative;
+}
+
 form {
     width:25em;
     padding: 20px 0;
@@ -228,6 +232,15 @@ form {
     margin-top:20px;
     margin-bottom:20px;
 }
+
+.form #lottery{
+    width:fit-content;
+    margin: auto;
+    padding:0px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
 .form h3 {
     margin-top:20px;
     margin-bottom:20px;
